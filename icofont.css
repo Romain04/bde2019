@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('Fonts/icomoon/icomoon.eot?7uebbs');
+  src:  url('Fonts/icomoon/icomoon.eot?7uebbs#iefix') format('embedded-opentype'),
+    url('Fonts/icomoon/icomoon.ttf?7uebbs') format('truetype'),
+    url('Fonts/icomoon/icomoon.woff?7uebbs') format('woff'),
+    url('Fonts/icomoon/icomoon.svg?7uebbs#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-rocket:before {
+  content: "\e901";
+}
+.icon-movie:before {
+  content: "\e902";
+}
+.icon-location:before {
+  content: "\e900";
+}
+.icon-add:before {
+  content: "\e90c";
+}
+.icon-drafts:before {
+  content: "\e90e";
+}
+.icon-remove:before {
+  content: "\e90f";
+}
+.icon-arrow_left:before {
+  content: "\e910";
+}
+.icon-arrow_right:before {
+  content: "\e911";
+}
+.icon-timer:before {
+  content: "\e912";
+}
+.icon-soiree:before {
+  content: "\e903";
+}
+.icon-bar:before {
+  content: "\e904";
+}
+.icon-cart:before {
+  content: "\e913";
+}
+.icon-map:before {
+  content: "\e914";
+}
+.icon-run:before {
+  content: "\e915";
+}
+.icon-fastfood:before {
+  content: "\e905";
+}
+.icon-people:before {
+  content: "\e916";
+}
+.icon-check_box:before {
+  content: "\e906";
+}
+.icon-unchecked_box:before {
+  content: "\e907";
+}
+.icon-profil:before {
+  content: "\e917";
+}
+.icon-explore:before {
+  content: "\e908";
+}
+.icon-lock:before {
+  content: "\e90d";
+}
+.icon-calendar:before {
+  content: "\e918";
+}
+.icon-time:before {
+  content: "\e909";
+}
+.icon-removecart:before {
+  content: "\e919";
+}
+.icon-delete:before {
+  content: "\e91a";
+}
+.icon-esports:before {
+  content: "\e90a";
+}
+.icon-sports:before {
+  content: "\e90b";
+}
+.icon-happy:before {
+  content: "\e9df";
+}
+.icon-smile:before {
+  content: "\e9e1";
+}
+.icon-sad:before {
+  content: "\e9e5";
+}
+.icon-confused:before {
+  content: "\e9f5";
+}
+.icon-neutral:before {
+  content: "\e9f7";
+}
+.icon-wondering:before {
+  content: "\e9fb";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-radio-checked:before {
+  content: "\ea54";
+}
+.icon-radio-unchecked:before {
+  content: "\ea56";
+}
