@@ -125,6 +125,28 @@ header p a:hover
 	transition: color ease 0.2s;
 }
 
+#orderbtn2
+{
+	display: inline-block;
+	font-family: 'PierSansBold',verdana,serif;
+	font-size: 20px;
+	border-radius: 10px;
+	border: none;
+	padding: 10px;
+	width: 200px;
+	text-align: center;
+	color:  #F9F9F9;
+	cursor: pointer;
+	background-color: rgb(252, 176, 69);
+	transition: background-color linear 0.2s;
+}
+
+#orderbtn2:hover
+{
+	transition: background-color linear 0.2s;
+	background-color: rgb(252, 200, 100);
+}
+
 .topicon
 {
 	font-size: 30px;
