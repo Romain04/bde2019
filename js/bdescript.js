@@ -73,4 +73,12 @@ $(function ()
     }
     $("#number").html(getPosition());
   });
+  $("#menuIcon").click(function(){
+    $("#hidescreen").fadeIn(750);
+    $("#sidePanel").animate({'left':'0'},750);
+  });
+  $("#hidescreen").click(function(){
+    $("#hidescreen").fadeOut(750);
+    $("#sidePanel").animate({'left':'-300px'},750);
+  });
 });
