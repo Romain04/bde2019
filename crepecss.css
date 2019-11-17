@@ -1,0 +1,215 @@
+/* crepecss.css - 2019 */
+
+/*
+  BDE website - CSS.
+  crepes' html page's style [v0.1]
+  Developed by Romain Picard - Merlin/2019
+*/
+
+@font-face
+{
+	font-family: 'PierSansBold';
+	src:url('Fonts/PierSans-Bold.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#crepeSection
+{
+  margin-top: 80px;
+  width: 100%;
+  height: calc(100% - 180px);
+  overflow: auto;
+  background-image: url("img/Patterns/graphy.png");
+}
+
+#formContainer
+{
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#formContainer h2
+{
+  font-family: 'PierSansBold',Verdana,sans-serif;
+  font-size: 50px;
+}
+
+#formContainer > img
+{
+  width: 150px;
+}
+
+#VRco
+{
+  padding: 10px;
+  background-color: white;
+  border: rgb(252, 176, 69) 2px solid;
+  border-radius: 8px;
+  font-size: 30px;
+  font-family: 'PierSansBold',Verdana,sans-serif;
+}
+
+#logoVR
+{
+  vertical-align: middle;
+  width: 50px;
+  margin-right: 20px;
+}
+
+#steps
+{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  background-color: #2d3047;
+  color: white;
+  text-align: center;
+}
+
+#stepsWrap
+{
+  display: block;
+  width: 90%;
+  margin: 20px auto;
+  font-size: 14px;
+  font-family: 'PierSansBold',Verdana,sans-serif;
+}
+
+#steps > p
+{
+  margin: 10px;
+}
+
+#stepsWrap > span
+{
+  float: left;
+}
+
+.element
+{
+  width: 10%;
+}
+
+.line
+{
+  width: 18%;
+  border: 2px solid white;
+  margin-top: 10px;
+}
+
+.stepicon
+{
+  font-size: 25px;
+}
+
+.done
+{
+  color: rgb(252, 176, 69);
+}
+
+.ldone
+{
+  border-color: rgb(252, 176, 69);
+}
+
+form
+{
+  width: 100%;
+  text-align: left;
+}
+
+.inputs
+{
+  width: 100%;
+  border: 2px solid #2d3047;
+  font-size: 20px;
+  padding: 2px 0;
+  margin: 10px 0;
+}
+
+.inputgrp
+{
+  width: 150px;
+  font-size: 25px;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+#inputwrap
+{
+  width: 550px;
+  margin: 0 auto;
+}
+
+.button
+{
+  font-size: 25px;
+  padding: 2px 40px;
+  display: inline;
+  border-radius: 10px;
+	border: none;
+  color:  #F9F9F9;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(252, 176, 69);
+  transition: background-color linear 0.2s;
+}
+
+.button:hover, .button2:hover
+{
+	transition: background-color linear 0.2s;
+	background-color: rgb(252, 200, 100);
+  color: white;
+}
+
+.button2
+{
+  font-size: 25px;
+  padding: 2px 40px;
+  display: inline;
+  border-radius: 10px;
+	border: 3px solid rgb(252, 176, 69);
+  cursor: pointer;
+  background-color: white;
+  transition: all linear 0.2s;
+}
+
+#submit
+{
+  display: block;
+  width: 200px;
+  margin: auto;
+  font-family: 'PierSansBold',Verdana,sans-serif;
+}
+
+.result
+{
+  font-size: 25px;
+  color: rgb(252, 176, 69);
+  font-family: 'PierSansBold',Verdana,sans-serif;
+}
+
+#satisfaction
+{
+  font-size: 35px;
+  letter-spacing: 20px;
+}
+
+#satisfaction span
+{
+  cursor: pointer;
+}
+
+#satisfaction span:hover
+{
+  color: rgb(252, 176, 69);
+}
+
+.info
+{
+  border: 2px rgb(252, 176, 69) solid;
+  background-color: rgb(252, 176, 69);
+}

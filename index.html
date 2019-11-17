@@ -8,14 +8,13 @@
     <meta name="Description" content="T'es encore indécis(e) sur la liste à élir pour la campagne BDE ? Tu recherches des activités cool et originales pour tromper la grisaille du plateau giffois ? Ou tu veux juste savourer une bonne crepe directement chez toi? Alors bienvenue sur le site d'Apollo Gif l'ami(e), fais comme chez toi ! Ici, tu peux retrouver toutes nos infos, nos tronches, nos actis et nos fameuses crêpes qui régalent et jalousent toute la concurrence ! ">
     <meta name="Robots" content="index, follow">
     <meta name="Author" content="Romain Picard - Merlin">
-    <link rel="stylesheet" type="text/css" href="icofont.css">
-    <link rel="stylesheet" type="text/css" href="bdecss.css">
-    <script type="text/javascript" src="js/three.min.js"></script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bdescript.js"></script>
+    <link rel="shortcut icon" type="image/svg" href="img/logo.svg" />
     <title>Mission Apollo Gif - Site officiel de la liste BDE CentraleSupélec 2019</title>
   </head>
   <body>
+    <div rel="preload" id="loader" style="display:block;position:absolute;width:100%;height:100%;z-index:10000;background-color: #2d3047;">
+        <img src="img/frame.svg" style="height:90%;display: block;margin: auto;">
+    </div>
     <div id="hidescreen"></div>
     <div id="sidePanel">
       <p id="sidetitle">
@@ -23,7 +22,7 @@
       </p>
       <p class="sidedesc">- COMMANDER DES CREPÊS -</p>
       <p id="sideButton">
-        <a id="btnCrepe" href="crepes.php">
+        <a id="btnCrepe" href="crepe.php">
           <button id="orderbtn2">
             <span class="icon-cart"></span> CRÊPES
           </button>
@@ -80,7 +79,7 @@
         </a>
       </p>
       <p id="btnCrepeWrap">
-        <a id="btnCrepe" href="crepes.php">
+        <a id="btnCrepe" href="crepe.php">
           <button id="orderbtn2">
             <span class="icon-cart"></span> CRÊPES
           </button>
@@ -117,7 +116,6 @@
       <section class="section" id="section1">
         <div id="three"></div>
         <div id="blackscreen"></div>
-        <script type="text/javascript" src="js/bdesimulation.js"></script>
         <article id="DescriptionG">
           <span id="imgG">
             <img src="img/logo.svg" id="logoG">
@@ -130,7 +128,7 @@
             <a href="#section2">
               <button id="startbtn"><span id="btn-rocket" class="icon-rocket"></span>Découvrir La Mission</button>
             </a>
-            <a href="crepes.php">
+            <a href="crepe.php">
               <button id="orderbtn"><span id="btn-cart" class="icon-cart"></span>Commander des CRÊPES</button>
             </a>
           </div>
@@ -161,7 +159,7 @@
         </div>
       </section>
       <section class="section" id="section3">
-        <h2>LA LISTE</h2>
+        <h2>LES LISTEUX</h2>
         <div class="listeLigne">
           <div class="listUnit">
             <img src="img/profil.png">
@@ -367,5 +365,12 @@
           <span id="total">5</span>
       </div>
     </main>
+    <link rel="stylesheet" type="text/css" href="icofont.css">
+    <link rel="stylesheet" type="text/css" href="bdecss.css">
+    <script type="text/javascript" src="js/three.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bdescript.js"></script>
+    <script type="text/javascript" src="js/frontscript.js"></script>
+    <script type="text/javascript" src="js/bdesimulation.js"></script>
   </body>
 </html>
