@@ -28,6 +28,11 @@
   width: 80%;
   margin: 20px auto;
   text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 #formContainer h2
@@ -210,6 +215,21 @@ form
 
 .info
 {
-  border: 2px rgb(252, 176, 69) solid;
-  background-color: rgb(252, 176, 69);
+  border: 2px rgb(205, 34, 16) solid;
+  background-color: rgb(205, 34, 16);
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
+
+#autocplt
+{
+	height: 200px;
+	font-size: 20px;
+	overflow: scroll;
+}
+
+#formvalue
+{
+	cursor: pointer;
 }
