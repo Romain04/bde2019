@@ -226,10 +226,17 @@ form
 {
 	height: 200px;
 	font-size: 20px;
-	overflow: scroll;
+	overflow: auto;
 }
 
-#formvalue
+.formvalue
 {
 	cursor: pointer;
+	text-align: center;
+	font-weight: bold;
+}
+
+.formvalue:hover
+{
+	color: rgb(205, 34, 16)
 }

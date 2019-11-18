@@ -28,11 +28,11 @@ var content = [`<h2>FORMULAIRE DE COMMANDE</h2>
 `<h2>VÉRIFICATION DE LA COMMANDE</h2>
 <p class="info"> Pensez à bien vérifier le nom et l'adresse, la commande ne pourra pas etre traitée si ces données sont erronées ! </p>
 <p>La commande sera livrée à :</p>
-<p class="result"><span class="icon-profil"></span>Romain PICARD</p>
+<p class="result" id="nomCom"><span class="icon-profil"></span></p>
 <p>Lieu de Livraison :</p>
-<p class="result"><span class="icon-map"></span>4CB105</p>
+<p class="result" id="lieuCom"><span class="icon-map"></span></p>
 <p>Nombre de crêpe(s) commandée(s):</p>
-<p class="result"><span class="icon-cart"></span>5</p>
+<p class="result" id="countCom"><span class="icon-cart"></span></p>
 <button type="button" class="button" id="commander"> VALIDER </button>`,
 `<h2>COMMANDE ENREGISTRÉE !</h2>
 <p>Merci beaucoup pour ta commande de crêpes ! Alors, comment ça s'est passé la commande ?</p>
@@ -53,12 +53,22 @@ function sweep(text)
   return text.replace(/(<([^>]+)>)/ig,"");
 }
 
+function regexForge(text)
+{
+  position = text.search(/[a-zA-Z][0-9]/ig)+1;
+  return text.slice(0,position)+'\.*'+text.slice(position,position+1)+'\.*'+text.slice(position+1);
+}
+
 $(function ()
 {
-  function validate()
+  function validate(values)
   {
     var nom = sweep($("#nom").val()), prenom = sweep($("#prenom").val()), count = parseInt(sweep($("#count").val())), lieu = sweep($("#lieu").val());
-    if(nom != '' && prenom != '' && count > 0 && count <= 5 && lieu != '')
+    if(values)
+    {
+      return [nom,prenom,count,lieu]
+    }
+    if(nom != '' && prenom != '' && count > 0 && count <= 10 && lieu != '')
     {
       return true;
     }
@@ -72,13 +82,18 @@ $(function ()
     }).fadeIn(750, function()
     {
       $("#submit").click(function(){
-        if(validate())
+        if(validate(false))
         {
+          values = validate(true);
           $("#formContainer").fadeOut(750, function()
           {
             $("#formContainer").html(content[1])
           }).fadeIn(750, function()
           {
+            //add values
+            $("#nomCom").append(values[0]+' '+values[1]);
+            $("#lieuCom").append(values[3]);
+            $("#countCom").append(values[2]);
             $("#commander").click(function(){
               $("#formContainer").fadeOut(750, function()
               {
@@ -115,13 +130,13 @@ $(function ()
       });
       $("#lieu").keyup(function()
       {
-        $.post("php/autocplt.php", {input: $("#lieu").val()}, function(data)
+        $.post("php/autocplt.php", {input: regexForge($("#lieu").val())}, function(data)
         {
           $("#data").html(data);
           $(".formvalue").click(function()
           {
             $("#lieu").val($(this).text());
-            $('#data').html('Lieu validé ;)')
+            $('#data').html('<p style="text-align:center;font-size:30px;">Lieu validé ;)</p>')
           });
         });
       });

@@ -9,12 +9,17 @@
 */
 require("connect.php");
 $input = strip_tags($_POST["input"]);
-$quest = $bdd->prepare('SELECT nom FROM lieu WHERE nom REGEXP ? or surnom REGEXP ?') or die(print_r($bdd->error));
+$quest = $bdd->prepare('SELECT nom,surnom FROM lieu WHERE nom REGEXP ? or surnom REGEXP ?') or die(print_r($bdd->error));
 $quest->bind_param("ss", $input, $input);
-$quest->bind_result($result);
+$quest->bind_result($nom,$surnom);
 $quest->execute();
 $lieux = array();
 while($quest->fetch()){
-  echo '<p class="formvalue">'.$result.'</p>';
+  $val = '';
+  if(!empty($surnom))
+  {
+    $val = ', '.$surnom;
+  }
+  echo '<p class="formvalue">'.$nom.$val.'</p>';
 }
 $quest->close();
