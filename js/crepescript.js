@@ -50,11 +50,13 @@ var content = [`<h2>FORMULAIRE DE COMMANDE</h2>
 
 function sweep(text)
 {
-  return text.replace(/(<([^>]+)>)/ig,"");
+  text = text.replace(/(<([^>]+)>)/ig,"");
+  return text.replace(/[\-\'\"_;,:\\\/?!|\{\}\[\]#~=@`\+^]+/ig,"");
 }
 
 function regexForge(text)
 {
+  text = text.replace("é","e");
   position = text.search(/[a-zA-Z][0-9]/ig)+1;
   return text.slice(0,position)+'\.*'+text.slice(position,position+1)+'\.*'+text.slice(position+1);
 }
@@ -90,11 +92,11 @@ $(function ()
             $("#formContainer").html(content[1])
           }).fadeIn(750, function()
           {
-            //add values
             $("#nomCom").append(values[0]+' '+values[1]);
             $("#lieuCom").append(values[3]);
             $("#countCom").append(values[2]);
             $("#commander").click(function(){
+              $.post("php/add.php",{input: values});
               $("#formContainer").fadeOut(750, function()
               {
                 $("#formContainer").html(content[2])
@@ -130,7 +132,7 @@ $(function ()
       });
       $("#lieu").keyup(function()
       {
-        $.post("php/autocplt.php", {input: regexForge($("#lieu").val())}, function(data)
+        $.post("php/autocplt.php", {input: regexForge(sweep($("#lieu").val()))}, function(data)
         {
           $("#data").html(data);
           $(".formvalue").click(function()

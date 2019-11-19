@@ -8,8 +8,9 @@
   Developed by Romain Picard - Merlin/2019
 */
 require("connect.php");
-$input = strip_tags($_POST["input"]);
-$quest = $bdd->prepare('SELECT nom,surnom FROM lieu WHERE nom REGEXP ? or surnom REGEXP ?') or die(print_r($bdd->error));
+$protect = array('"',"'","/","\\","#","[","]","{","}","(",")","_",":",";",",","!","?","@","+","=","`","%","^","-","&","|");
+$input = str_replace($protect, "", strip_tags($_POST["input"]));
+$quest = $bdd->prepare('SELECT nom,surnom FROM lieu WHERE nom REGEXP ? or surnom REGEXP ?') or die('502 - Internal Error');
 $quest->bind_param("ss", $input, $input);
 $quest->bind_result($nom,$surnom);
 $quest->execute();

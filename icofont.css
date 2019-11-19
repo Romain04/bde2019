@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('Fonts/icomoon/icomoon.eot?j7ssb');
-  src:  url('Fonts/icomoon/icomoon.eot?j7ssb#iefix') format('embedded-opentype'),
-    url('Fonts/icomoon/icomoon.ttf?j7ssb') format('truetype'),
-    url('Fonts/icomoon/icomoon.woff?j7ssb') format('woff'),
-    url('Fonts/icomoon/icomoon.svg?j7ssb#icomoon') format('svg');
+  src:  url('Fonts/icomoon/icomoon.eot?z389gg');
+  src:  url('Fonts/icomoon/icomoon.eot?z389gg#iefix') format('embedded-opentype'),
+    url('Fonts/icomoon/icomoon.ttf?z389gg') format('truetype'),
+    url('Fonts/icomoon/icomoon.woff?z389gg') format('woff'),
+    url('Fonts/icomoon/icomoon.svg?z389gg#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -37,8 +37,8 @@
 .icon-add:before {
   content: "\e90c";
 }
-.icon-drafts:before {
-  content: "\e90e";
+.icon-cross:before {
+  content: "\e91b";
 }
 .icon-remove:before {
   content: "\e90f";
@@ -48,6 +48,9 @@
 }
 .icon-arrow_right:before {
   content: "\e911";
+}
+.icon-arrow_up:before {
+  content: "\e90e";
 }
 .icon-trigamme:before {
   content: "\e91c";
@@ -85,6 +88,9 @@
 .icon-profil:before {
   content: "\e917";
 }
+.icon-order_checked:before {
+  content: "\e91a";
+}
 .icon-explore:before {
   content: "\e908";
 }
@@ -99,9 +105,6 @@
 }
 .icon-removecart:before {
   content: "\e919";
-}
-.icon-delete:before {
-  content: "\e91a";
 }
 .icon-esports:before {
   content: "\e90a";
@@ -129,10 +132,4 @@
 }
 .icon-checkmark:before {
   content: "\ea10";
-}
-.icon-radio-checked:before {
-  content: "\ea54";
-}
-.icon-radio-unchecked:before {
-  content: "\ea56";
 }

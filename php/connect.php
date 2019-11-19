@@ -14,6 +14,6 @@ try
 }
 catch(Exception $e)
 {
-        die($e);
+        die('502 - Internal Error');
 }
 ?>

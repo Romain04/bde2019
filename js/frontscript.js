@@ -9,12 +9,14 @@
 $(function ()
 {
   var done,
+      expanded = false,
+      uActivated = false,
       ceHeight = $(".CurrentEvent").css('height'),
-      hsec1 = Number($("#section1").css('height').slice(0,-2)),
-      hsec2 = Number($("#section2").css('height').slice(0,-2)),
-      hsec3 = Number($("#section3").css('height').slice(0,-2)),
-      hsec4 = Number($("#section4").css('height').slice(0,-2)),
-      hsec5 = Number($("#section5").css('height').slice(0,-2));
+      hsec1 = $("#section1").height(),
+      hsec2 = $("#section2").height(),
+      hsec3 = $("#section3").height(),
+      hsec4 = $("#section4").height(),
+      hsec5 = $("#section5").height();
   function getPosition()
   {
     var scroll = $("main").scrollTop();
@@ -31,38 +33,82 @@ $(function ()
       return 5;
     }
   }
-  if($("main").scrollTop() >= 100)
+
+  function showAside()
+  {
+    $("#retrouver").animate({'opacity': '1'});
+    $("#Avenir").fadeIn(750);
+    $(".CurrentEvent p").fadeIn(750);
+    $(".CurrentEvent").css({'cursor':'auto'});
+    $(".CurrentEvent").animate({'height': ceHeight},750);
+    $("aside").animate({'top': '150px'});
+  }
+
+  function hideAside()
   {
     $("#retrouver").animate({'opacity': '0'});
     $("#Avenir").fadeOut(750);
     $(".CurrentEvent p").fadeOut(750);
+    $("#ArrowUp").fadeIn(750);
+    $(".CurrentEvent").css({'cursor':'pointer'});
     $(".CurrentEvent").animate({'height': '70px'},750);
-    $("aside").animate({'top': '75%'});
+    $("aside").animate({'top': $(window).height() - 140});
+    arrow();
+  }
+
+  function cross()
+  {
+    $(".CurrentEvent").off();
+    $(".CurrentEvent").click(function()
+    {
+      $("#ArrowUp").removeClass("icon-cross").addClass("icon-arrow_up").fadeIn(750);
+      hideAside();
+      $("#Avenir").css({'background-color':'rgba(0,0,0,0)'});
+      uActivated = false;
+      arrow();
+    });
+  }
+
+  function arrow()
+  {
+    $(".CurrentEvent").off();
+    $(".CurrentEvent").click(function()
+    {
+      $("#ArrowUp").removeClass("icon-arrow_up").addClass("icon-cross").fadeIn(750);
+      showAside();
+      $("#Avenir").css({'background-color':'rgba(0,0,0,0.7)'});
+      uActivated = true;
+      cross();
+    });
+  }
+
+  if($("main").scrollTop() >= 100)
+  {
+    hideAside();
     done = true;
   }else{
-    $("#retrouver").animate({'opacity': '1'});
-    $("#Avenir").fadeIn(750);
-    $(".CurrentEvent p").fadeIn(750);
-    $(".CurrentEvent").animate({'height': ceHeight},750);
-    $("aside").animate({'top': '25%'});
+    showAside();
+    $("#ArrowUp").fadeOut(750);
     done = false;
   }
+
+  $(window).resize(function(){
+    if($("main").scrollTop() >= 100)
+    {
+      $(".CurrentEvent").css({'top': $(window).height() - 140});
+    }
+  });
+
   $("main").scroll(function()
   {
     if(!done && $("main").scrollTop() >= 100)
     {
-      $("#retrouver").animate({'opacity': '0'});
-      $("#Avenir").fadeOut(750);
-      $(".CurrentEvent p").fadeOut(750);
-      $(".CurrentEvent").animate({'height': '70px'},750);
-      $("aside").animate({'top': '75%'});
+      hideAside();
+      $(".CurrentEvent").click(arrow);
       done = true;
-    }else if(done && $("main").scrollTop() < 100){
-      $("#retrouver").animate({'opacity': '1'});
-      $("#Avenir").fadeIn(750);
-      $(".CurrentEvent p").fadeIn(750);
-      $(".CurrentEvent").animate({'height': ceHeight},750);
-      $("aside").animate({'top': '25%'});
+    }else if(!uActivated && done && $("main").scrollTop() < 100){
+      showAside();
+      $("#ArrowUp").fadeOut(750);
       done = false;
     }
     if(getPosition() === 5)
@@ -72,5 +118,18 @@ $(function ()
       $("aside").fadeIn(500);
     }
     $("#number").html(getPosition());
+  });
+  $("#expandListe").click(function()
+  {
+    if(expanded)
+    {
+      expanded = false
+      $("#expandListe").html("MONTRER TOUTE LA LISTE");
+      $("#hideNseeListe").fadeOut(750);
+    }else{
+      expanded = true
+      $("#expandListe").html("MASQUER LA LISTE");
+      $("#hideNseeListe").fadeIn(750);
+    }
   });
 });
