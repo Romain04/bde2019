@@ -82,7 +82,6 @@ body,html
 
 #hidescreen
 {
-	display: none;
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0,0,0,0.5);
@@ -117,6 +116,33 @@ a
 	z-index: 1001;
 	top: 0px;
 	left: -300px;
+}
+
+.formcol
+{
+	display: inline-block;
+	width: 100px;
+	margin: 0 20px;
+}
+#reveal
+{
+	text-align: center;
+}
+
+#langButton
+{
+	display: block;
+	margin: 0 auto;
+}
+
+#langTitle
+{
+	font-family: 'PierSansBold',verdana,serif;
+}
+
+.ang
+{
+	font-style: italic;
 }
 
 header
@@ -637,11 +663,9 @@ section > h2
 	text-align: center;
 }
 
-#expandListe
+.button
 {
-	display: none;
 	width: 200px;
-	margin: 50px auto;
 	padding: 10px 30px;
 	border: none;
 	background-color: rgb(205, 34, 16);
@@ -651,9 +675,15 @@ section > h2
 	border-radius: 10px;
 }
 
-#expandListe:hover
+.button:hover
 {
 	background-color: rgb(225, 54, 36);
+}
+
+#expandListe
+{
+	margin: 50px auto;
+	display: none;
 }
 
 .surname

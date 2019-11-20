@@ -8,7 +8,6 @@
 
 $(function ()
 {
-  $("#loader").delay(1000).fadeOut(1000);
   $("#menuIcon").click(function(){
     $("#hidescreen").fadeIn(750);
     $("#sidePanel").animate({'left':'0'},750);

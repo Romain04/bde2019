@@ -17,6 +17,7 @@ $(function ()
       hsec3 = $("#section3").height(),
       hsec4 = $("#section4").height(),
       hsec5 = $("#section5").height();
+
   function getPosition()
   {
     var scroll = $("main").scrollTop();
@@ -32,6 +33,33 @@ $(function ()
     }else{
       return 5;
     }
+  }
+
+  function language()
+  {
+    $("#loader img").fadeOut(200,function(){
+      $("#loader").append("<div id='reveal'></div>");
+      $("#reveal").fadeOut(0).css({'color':'white'}).html(`
+      <h3 id="langTitle">LANGUE / <span class='ang'>LANGUAGE</span></h3>
+      <div class="formcol">
+        <img src="img/frflag.png" alt="Drapeau Fançais / French Flag"/>
+        <p>Français</p>
+        <p class="icon-check_box"></p>
+      </div>
+      <div class="formcol">
+        <img src="img/enflag.png" alt="Drapeau Anglais / English Flag"/>
+        <p><span class='ang'>English</span></p>
+        <p class="icon-unchecked_box"></p>
+      </div>
+      <button id="langButton" class="button"> OK </button>
+      `).delay(200).fadeIn(200,function(){
+        $("#langButton").click(function()
+        {
+          $("#hidescreen").fadeOut(750);
+          $("#loader").fadeOut(750);
+        });
+      });
+    });
   }
 
   function showAside()
@@ -81,6 +109,8 @@ $(function ()
       cross();
     });
   }
+
+  $("#loader").delay(1000).animate({'width': 400,'height': 300,'top':$(window).height()/2 - 150,'left':$(window).width()/2 - 200},700,language);
 
   if($("main").scrollTop() >= 100)
   {
