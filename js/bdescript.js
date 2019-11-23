@@ -14,6 +14,6 @@ $(function ()
   });
   $("#hidescreen").click(function(){
     $("#hidescreen").fadeOut(750);
-    $("#sidePanel").animate({'left':'-300px'},750);
+    $("#sidePanel").animate({'left': -0.7*$(window).width()},750);
   });
 });
