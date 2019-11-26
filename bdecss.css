@@ -194,11 +194,11 @@ header p a:hover
 {
 	display: inline-block;
 	font-family: 'PierSansBold',verdana,serif;
-	font-size: 40px;
+	font-size: 20px;
 	border-radius: 10px;
 	border: none;
 	padding: 10px;
-	width: 300px;
+	width: 200px;
 	text-align: center;
 	color:  #F9F9F9;
 	cursor: pointer;
@@ -237,6 +237,28 @@ header p a:hover
 	font-family: 'PierSansBold',Verdana,sans-serif;
 	font-size: 35px;
 	letter-spacing: 5px;
+}
+
+#orderbtn3
+{
+	display: inline-block;
+	font-family: 'PierSansBold',verdana,serif;
+	font-size: 40px;
+	border-radius: 10px;
+	border: none;
+	padding: 10px;
+	width: 300px;
+	text-align: center;
+	color:  #F9F9F9;
+	cursor: pointer;
+	background-color: rgb(252, 176, 69);
+	transition: background-color linear 0.2s;
+}
+
+#orderbtn3:hover
+{
+	transition: background-color linear 0.2s;
+	background-color: rgb(252, 200, 100);
 }
 
 #sideBottom
@@ -804,7 +826,7 @@ section > h2
 	}
 }
 
-@media screen and (max-width: 1000px) and (min-width: 600px)
+@media screen and (max-width: 1000px) and (min-width: 600px)/* mobile devices*/
 {
 	header p
 	{
