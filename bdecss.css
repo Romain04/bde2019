@@ -190,7 +190,7 @@ header p a:hover
 	transition: color ease 0.2s;
 }
 
-#orderbtn2
+.orderbtn
 {
 	display: inline-block;
 	font-family: 'PierSansBold',verdana,serif;
@@ -206,7 +206,7 @@ header p a:hover
 	transition: background-color linear 0.2s;
 }
 
-#orderbtn2:hover
+.orderbtn:hover
 {
 	transition: background-color linear 0.2s;
 	background-color: rgb(252, 200, 100);
@@ -235,30 +235,8 @@ header p a:hover
 	padding: 30px 0;
 	text-align: center;
 	font-family: 'PierSansBold',Verdana,sans-serif;
-	font-size: 35px;
+	font-size: 25px;
 	letter-spacing: 5px;
-}
-
-#orderbtn3
-{
-	display: inline-block;
-	font-family: 'PierSansBold',verdana,serif;
-	font-size: 40px;
-	border-radius: 10px;
-	border: none;
-	padding: 10px;
-	width: 300px;
-	text-align: center;
-	color:  #F9F9F9;
-	cursor: pointer;
-	background-color: rgb(252, 176, 69);
-	transition: background-color linear 0.2s;
-}
-
-#orderbtn3:hover
-{
-	transition: background-color linear 0.2s;
-	background-color: rgb(252, 200, 100);
 }
 
 #sideBottom
@@ -287,7 +265,7 @@ header p a:hover
 {
 	font-family: 'PierSansBold','PierSans',Verdana,sans-serif;
 	text-align: center;
-	font-size: 40px;
+	font-size: 25px;
 }
 
 aside
@@ -890,23 +868,15 @@ section > h2
 		width: 90%;
 	}
 
-	.formcol
+	.descripP
 	{
-		width: 40%;
-		margin: 0 20px;
-		font-size: 30px;
+		width: calc(100% - 40px);
 	}
 
-	#langButton
+	.descripUnit img
 	{
-		display: block;
-		margin: 0 auto;
-		font-size: 30px;
-	}
-
-	#langTitle
-	{
-		font-size: 40px;
+		width : 100%;
+		margin: 10px auto;
 	}
 }
 
@@ -970,24 +940,15 @@ section > h2
 		text-align: center;
 		padding-left: 0;
 	}
-
-	.formcol
+	.descripP
 	{
-		width: 40%;
-		margin: 0 20px;
-		font-size: 30px;
+		width: calc(100% - 40px);
 	}
 
-	#langButton
+	.descripUnit img
 	{
-		display: block;
-		margin: 0 auto;
-		font-size: 30px;
-	}
-
-	#langTitle
-	{
-		font-size: 40px;
+		width : 100%;
+		margin: 10px auto;
 	}
 }
 @media screen and (orientation: landscape) and (max-height: 620px)

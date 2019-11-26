@@ -10,7 +10,6 @@ $(function ()
 {
   var viewportok,
       done,
-      size = [400,300,200],
       expanded = false,
       uActivated = false,
       ceHeight = $(".CurrentEvent").css('height'),
@@ -26,11 +25,6 @@ $(function ()
   }else{
     viewportok = false;
     $("aside").fadeOut(200);
-  }
-
-  if($(window).width() <= 1000)
-  {
-    size = ['80%',500,$(window).width()*0.4];
   }
 
   function getPosition()
@@ -157,7 +151,7 @@ $(function ()
 
   $("#hidescreen").fadeIn(10);
 
-  $("#loader").delay(1000).animate({'width': size[0],'height': size[1],'top':$(window).height()/2 - size[1]/2,'left':$(window).width()/2 - size[2]},700,language);
+  $("#loader").delay(1000).animate({'width': 400,'height': 300,'top':$(window).height()/2 - 150,'left':$(window).width()/2 - 200},700,language);
 
   if($("main").scrollTop() >= 100 && viewportok)
   {
