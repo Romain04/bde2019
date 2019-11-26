@@ -9,12 +9,10 @@ var background = loader.load("img/star.jpg");
 var clock = new THREE.Clock();
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.shadowMap.enabled = true;
-renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 scene.background = background;
 div1.appendChild(renderer.domElement);
 var light1 = new THREE.SpotLight(0xffffff);
 light1.position.set(80,0,80);
-light1.castShadow = true;
 light1.shadow.mapSize.width = 1024;
 light1.shadow.mapSize.height = 1024;
 var light2 = new THREE.SpotLight(0xffffff, 0.7);
@@ -23,8 +21,13 @@ var earth = new THREE.Mesh(new THREE.SphereGeometry(5, 32, 32), new THREE.MeshLa
 var atmosphere = new THREE.Mesh(new THREE.SphereGeometry(5.3, 32, 32), new THREE.MeshLambertMaterial({color: 0xbbbbee, transparent: true, opacity: 0.15}));
 var moon = new THREE.Mesh(new THREE.SphereGeometry(1, 20, 20), new THREE.MeshLambertMaterial({color: 0xbbbbbb, map: textureM}));
 moon.position.set(-20,0,-20);
-earth.receiveShadow = true;
-moon.castShadow = true;
+if(window.innerWidth >= 600)
+{
+  light1.castShadow = true;
+  renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+  earth.receiveShadow = true;
+  moon.castShadow = true;
+}
 scene.add(moon);
 scene.add(light1);
 scene.add(light2);
@@ -47,7 +50,7 @@ function onWindowResize()
 {
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
-    renderer.setSize( window.innerWidth, window.innerHeight );
+  renderer.setSize( window.innerWidth, window.innerHeight );
 }
 window.addEventListener( 'resize', onWindowResize, false );
 animate();
