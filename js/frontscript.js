@@ -19,6 +19,8 @@ $(function ()
       hsec4 = $("#section4").height(),
       hsec5 = $("#section5").height();
 
+  $("#three").css({'height': $("#section1").height()});
+
   if($(window).width() >= 1250)
   {
     viewportok = true;
@@ -163,7 +165,9 @@ $(function ()
     done = false;
   }
 
-  $(window).resize(function(){
+  $(window).resize(function()
+  {
+    $("#three").css({'height': $("#section1").height()});
     if($(window).width() >= 1250)
     {
       viewportok = true;

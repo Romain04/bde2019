@@ -9,11 +9,11 @@
 $(function ()
 {
   $("#menuIcon").click(function(){
-    $("#hidescreen").fadeIn(750);
-    $("#sidePanel").animate({'left':'0'},750);
+    $("#hidescreen").fadeIn(400);
+    $("#sidePanel").animate({'left':'0'},400);
   });
   $("#hidescreen").click(function(){
-    $("#hidescreen").fadeOut(750);
-    $("#sidePanel").animate({'left': -0.7*$(window).width()},750);
+    $("#hidescreen").fadeOut(400);
+    $("#sidePanel").animate({'left': -0.7*$(window).width()},400);
   });
 });

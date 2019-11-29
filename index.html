@@ -6,6 +6,8 @@
     <meta name="Content-Language" content="fr">
     <meta name="Keywords" content="BDE, campagne BDE, Apollogif, Mission Apollogif, Apollo, Mission Apollo Gif, Mission Gif, Gif, Gif-Sur-Yvette, CentraleSupélec, Centrale, Supelec, BDE 2019, Mission 2019">
     <meta name="Description" content="T'es encore indécis(e) sur la liste à élir pour la campagne BDE ? Tu recherches des activités cool et originales pour tromper la grisaille du plateau giffois ? Ou tu veux juste savourer une bonne crepe directement chez toi? Alors bienvenue sur le site d'Apollo Gif l'ami(e), fais comme chez toi ! Ici, tu peux retrouver toutes nos infos, nos tronches, nos actis et nos fameuses crêpes qui régalent et jalousent toute la concurrence ! ">
+    <link rel="prefetch" href="img/frflag.png" />
+    <link rel="prefetch" href="img/enflag.png" />
     <meta name="Robots" content="index, follow">
     <meta name="Author" content="Romain Picard - Merlin">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -82,7 +84,7 @@
       </p>
       <p id="btnCrepeWrap">
         <a id="btnCrepe" href="crepe.html">
-          <button id="orderbtn2">
+          <button class="orderbtn">
             <span class="icon-cart"></span> CRÊPES
           </button>
         </a>
@@ -139,13 +141,28 @@
           <span id="titleG">
             <h2>Rejoins <br/>la Mission <br/>APOLLO <br/>GIF !</h2>
           </span>
-          <div id="buttonContainer">
-            <a href="#section2">
-              <button id="startbtn"><span id="btn-rocket" class="icon-rocket"></span>Découvrir La Mission</button>
-            </a>
-            <a href="crepe.html">
-              <button id="orderbtn"><span id="btn-cart" class="icon-cart"></span>Commander des CRÊPES</button>
-            </a>
+          <div id="buttonContainer" style="color:white;margin: 40px;">
+            <span id="controls">ROCKET CONTROLS</span>
+            <div id="pwr">
+              <div class="ctrltitle">METRICS</div>
+              <span class="engine eng1">PWR ENGINE #1</span>
+              <span class="engine eng2">PWR ENGINE #2</span>
+              <br/>
+              <span class="engine met1">SPEED</span>
+              <span class="engine met2">TEMP.</span>
+            </div>
+            <div class="btn">
+              <div class="ctrltitle">MISS. CTRL</div>
+              <a href="#section2">
+                <button class="orderbtn"><span id="btn-rocket" class="icon-rocket"></span>Découvrir La Mission</button>
+              </a>
+            </div>
+            <div class="btn">
+              <div class="ctrltitle">FOOD SUP.</div>
+              <a href="crepe.html">
+                <button class="orderbtn"><span id="btn-cart" class="icon-cart"></span>Commander des CRÊPES</button>
+              </a>
+            </div>
           </div>
         </article>
       </section>
