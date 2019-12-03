@@ -433,10 +433,12 @@ footer
 	color: #F9F9F9;
 	height: 260px;
 	overflow: hidden;
+	text-align: center;
 }
 
 #footerContainer
 {
+	display: inline;
 	width: 90%;
 	margin: auto;
 }
@@ -923,6 +925,11 @@ section > h2
 
 @media screen and (max-width: 1000px) and (min-width: 600px)/* mobile devices*/
 {
+	.hidecolumn
+	{
+		display: none;
+	}
+	
 	header p
 	{
 		display: none;
@@ -989,6 +996,11 @@ section > h2
 
 @media screen and (max-width: 600px)
 {
+	.hidecolumn
+	{
+		display: none;
+	}
+
 	header p
 	{
 		display: none;

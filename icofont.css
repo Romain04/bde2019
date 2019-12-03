@@ -112,6 +112,12 @@
 .icon-sports:before {
   content: "\e90b";
 }
+.icon-show:before {
+  content: "\e91e";
+}
+.icon-attraction:before {
+  content: "\e91d";
+}
 .icon-happy:before {
   content: "\e9df";
 }

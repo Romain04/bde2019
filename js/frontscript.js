@@ -94,7 +94,7 @@ $(function ()
         {
           if(lang == 'en')
           {
-            document.location.href = "/en/home.html";
+            document.location.href = "/home.php";
           }
           $("#hidescreen").fadeOut(750);
           $("#loader").fadeOut(750);
