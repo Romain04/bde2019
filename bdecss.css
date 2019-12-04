@@ -326,9 +326,9 @@ aside
 	top: 25%;
 	bottom: auto;
 	width: 460px;
-	height: 450px;
+	height: 500px;
 	overflow: auto;
-	z-index: 1000;
+	z-index: 100;
 }
 
 #Avenir
@@ -806,6 +806,7 @@ section > h2
 	font-family: 'PierSansBold',Verdana,sans-serif;
 	font-size: 20px;
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 .button:hover
@@ -857,17 +858,13 @@ section > h2
 #section5
 {
 	background-color: #F9F9F9;
-}
-
-#shortDesc
-{
 	text-align: center;
 }
 
 #scene
 {
-	display: block;
-	width: 600px;
+	display: inline;
+	width: 90%;
 	margin: auto;
 }
 
@@ -929,7 +926,7 @@ section > h2
 	{
 		display: none;
 	}
-	
+
 	header p
 	{
 		display: none;

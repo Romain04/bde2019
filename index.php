@@ -91,44 +91,9 @@
       </p>
     </header>
     <aside>
-      <p class="catchphrase" id="retrouver">- OÙ NOUS RETROUVER -</p>
-      <div class="CurrentEvent">
-        <div id="topbar"></div>
-        <h3><span class="icon-sports"></span> TOURNOI DE BP </h3>
-        <span class="icon-arrow_up" id="ArrowUp"></span>
-        <p>Description courte mais complète de l'activité sus-nommée, destinée à apater le client tmtc.</p>
-        <p class="info">
-          <span class="icon-time"></span> 4h-18h
-          <span class="icon-explore"></span> Diagonale Eiffel
-        </p>
-      </div>
-      <div id="Avenir">
-        <p class="catchphrase">- ÉVÈNEMENTS À VENIR -</p>
-        <div class="scheduledEvent">
-          <h4 class="description">
-            <span class="icon-esports"></span> SPACE INVADER
-          </h4>
-          <p class="info"><span class="icon-time"></span> Demain, 8h-10h
-            <span class="icon-explore"></span> Cratère
-          </p>
-        </div>
-        <div class="scheduledEvent">
-          <h4 class="description">
-            <span class="icon-fastfood"></span> REPAS EIFFEL
-          </h4>
-          <p class="info"><span class="icon-time"></span> Demain, 12h-13h
-            <span class="icon-explore"></span> Diagonale Eiffel
-          </p>
-        </div>
-        <div class="scheduledEvent">
-          <h4 class="description">
-            <span class="icon-soiree"></span> SOIRÉE APOLLO GIF
-          </h4>
-          <p class="info"><span class="icon-time"></span> Après-Demain, 23h-03h
-            <span class="icon-explore"></span> Canapés Bouygues
-          </p>
-        </div>
-      </div>
+      <?php
+        include("php/event.php");
+       ?>
     </aside>
     </div>
     <main>
