@@ -92,7 +92,8 @@
     </header>
     <aside>
       <?php
-        include("php/event.php");
+        echo 'test';
+        //include("php/event.php");
        ?>
     </aside>
     </div>
