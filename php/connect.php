@@ -10,7 +10,7 @@
 
 try
 {
-	$bdd = mysqli_connect("global-db", "apollogif.fr-mQTTQu", "9ARFlJ7MGUdO", "apollogif_fr");
+	$bdd = mysqli_connect("localhost", "BDEAccess", "R0Ma;n2019bde2019", "bde2019");
 }
 catch(Exception $e)
 {

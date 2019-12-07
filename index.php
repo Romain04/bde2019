@@ -91,10 +91,46 @@
       </p>
     </header>
     <aside>
-      <?php
-        echo 'test';
-        //include("php/event.php");
-       ?>
+      <div class="CurrentEvent">
+        <div id="topbar"></div>
+        <h3><span class="icon-attraction"></span> COUP DE POING FORAIN </h3>
+        <span class="icon-arrow_up" id="ArrowUp"></span>
+        <p>Venez tester votre force et montrer vos biceps de bodybuilder face à la machine infernale !</p>
+        <p class="info">
+          <span class="icon-time"></span>8h-23h
+          <span class="icon-explore"></span>Canapés Bouygues (Stand)
+        </p>
+        <a href="calendar.php">
+          <button class="button" style="margin-top:10px;margin-left: calc(50% - 100px);">VOIR PLUS</button>
+        </a>
+      </div>
+      <div id="Avenir">
+        <p class="catchphrase">- ÉVÈNEMENTS À VENIR -</p>
+        <div class="scheduledEvent">
+          <h4 class="description">
+            <span class="icon-esports"></span> BORNE D'ARCADE
+          </h4>
+          <p class="info"><span class="icon-time"></span>Aujourd'hui, 8h-23h
+            <span class="icon-explore"></span> Canapés Bouygues (Stand)
+          </p>
+        </div>
+        <div class="scheduledEvent">
+          <h4 class="description">
+            <span class="icon-fastfood"></span> REPAS STAND
+          </h4>
+          <p class="info"><span class="icon-time"></span>Aujourd'hui, 11h-13h
+            <span class="icon-explore"></span> Canapés Bouygues (Stand)
+          </p>
+        </div>
+        <div class="scheduledEvent">
+          <h4 class="description">
+            <span class="icon-run"></span> ESCAPE GAME
+          </h4>
+          <p class="info"><span class="icon-time"></span>Aujourd'hui, 15h-20h
+            <span class="icon-explore"></span> Sc.266
+          </p>
+        </div>
+      </div>
     </aside>
     </div>
     <main>
