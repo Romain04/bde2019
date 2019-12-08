@@ -925,6 +925,11 @@ section > h2
 
 @media screen and (max-width: 1000px) and (min-width: 600px)/* mobile devices*/
 {
+	.actiUnit
+	{
+		height: 400px;
+	}
+
 	.hidecolumn
 	{
 		display: none;
@@ -996,6 +1001,11 @@ section > h2
 
 @media screen and (max-width: 600px)
 {
+	.actiUnit
+	{
+		height: 400px;
+	}
+
 	.hidecolumn
 	{
 		display: none;

@@ -491,7 +491,6 @@
               <li><a href="#section2">À propos</a></li>
               <li><a href="mailto:rom1.04pic@hotmail.fr">Nous contacter</a></li>
               <li><a href="plan.html">Plan du site</a></li>
-              <?php echo 'test'; ?>
             </ul>
           </span>
         </div>
