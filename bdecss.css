@@ -344,7 +344,7 @@ aside
 #ArrowUp
 {
 	position: absolute;
-	top: 70px;
+	top: 25px;
 	right: 10px;
 	font-size: 40px;
 	display: none;
@@ -388,7 +388,7 @@ main
 	width: 100%;
 	height: calc(100% - 80px);
 	overflow: auto;
-	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("img/rocket2.png"),url("img/Patterns/graphy.png");
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("img/rocket2.png"),url("img/Patterns/graphy.png");
 }
 
 .section
@@ -706,6 +706,8 @@ footer
 .descripP p
 {
 	color: white;
+	font-weight: bold;
+	text-shadow: black 1px 1px 0;
 }
 
 .descripP h3
@@ -844,6 +846,7 @@ section > h2
 	clear: both;
 	height: 200px;
 	overflow: auto;
+	text-align: center;
 }
 
 .actiUnit img

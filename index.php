@@ -93,14 +93,14 @@
     <aside>
       <div class="CurrentEvent">
         <div id="topbar"></div>
-        <h3><span class="icon-attraction"></span> COUP DE POING FORAIN </h3>
+        <h3><span class="icon-attraction"></span> COUP DE POING</h3>
         <span class="icon-arrow_up" id="ArrowUp"></span>
         <p>Venez tester votre force et montrer vos biceps de bodybuilder face à la machine infernale !</p>
         <p class="info">
           <span class="icon-time"></span>8h-23h
           <span class="icon-explore"></span>Canapés Bouygues (Stand)
         </p>
-        <a href="calendar.php">
+        <a href="#section4">
           <button class="button" style="margin-top:10px;margin-left: calc(50% - 100px);">VOIR PLUS</button>
         </a>
       </div>
@@ -172,8 +172,8 @@
         <h2>QUI SOMMES NOUS</h2>
         <div class="descripUnit">
           <span class="descripP">
-            <h3>Une liste soudée et expérimentée</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat officiis, laborum porro aliquid pariatur provident ea id ratione beatae temporibus ex, voluptatem aut neque in dolorem tempore. Dicta ratione, cupiditate!</p>
+            <h3>Le mot du Prez</h3>
+            <p>5, 4, 3, 2, 1, We have a lift off!La Mission Apollo Gif est partie pour vous envoyer dans les étoiles pendant cette semaine de campagne interstellaire ! Les Apollos c’est 26 astronautes surentrainés qui partent à la conquête de la galaxie CentraleSupélec. Une liste surmotivée prête à vous mettre des étoiles pleins les yeux avec ses surprises pendant cette semaine de campagne qui s’annonce épique ! Déterminés à rendre la vie étudiante et associative encore meilleure, et animés par une volonté électrique, nos listeux sont prêts à tout pour cette semaine, et on espère cette année, à venir ! Cursus, cohésion associative, vie sur le campus, nos projets et notre campagne cosmique sauront vous convaincre de choisir la Mission Apollo Gif pour le BDE 2020 !</p>
           </span>
           <img src="img/unite.jpg" alt="Liste soudée : preuve en image!">
         </div>
@@ -181,7 +181,8 @@
           <img src="img/project.jpg" alt="Des Projets aussi solide que les QCM de CIP!">
           <span class="descripP">
             <h3>Des Projets en béton pour le campus</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat officiis, laborum porro aliquid pariatur provident ea id ratione beatae temporibus ex, voluptatem aut neque in dolorem tempore. Dicta ratione, cupiditate!</p>
+            <p>La Mission Apollo Gif s'engage à recentrer le rôle du BDE. Par l'intermédiaire de nos projets, nous concentrerons nos efforts sur le renforcement et le maintien du lien entre les étudiants, les associations et l'école. <br/> Nous proposons trois axes de réflexion qui permettront d'atteindre cet objectif : des projets pour le cursus et l'école, des projets dirigés vers l'associatif et des projets destinés à améliorer la vie étudiante à CentraleSupélec.
+</p>
           </span>
         </div>
         <div class="descripUnit">
@@ -197,23 +198,23 @@
         <div class="listeLigne">
           <p>Le Bureau</p>
           <div class="listUnit">
-            <img src="img/profil.png">
-            <p><span class="surname">Surnom</span><br/>Brieuc Devevey</p>
+            <img src="img/photo/Brieuc.jpg">
+            <p><span class="surname">Apollogif</span><br/>Brieuc Devevey</p>
             <p><span class="pole">Bureau</span><br/> Prez</p>
           </div>
           <div class="listUnit">
-            <img src="img/profil.png">
-            <p><span class="surname">Surnom</span><br/>Yvan Duhen</p>
+            <img src="img/photo/Yvan.jpg">
+            <p><span class="surname">Apollogif</span><br/>Yvan Duhen</p>
             <p><span class="pole">Bureau</span><br/> Trez</p>
           </div>
           <div class="listUnit">
-            <img src="img/profil.png">
-            <p><span class="surname">Surnom</span><br/>Simon Tronchi</p>
+            <img src="img/photo/Simon.jpg">
+            <p><span class="surname">Apollogif</span><br/>Simon Tronchi</p>
             <p><span class="pole">Bureau</span><br/> Trez Clubs</p>
           </div>
           <div class="listUnit">
-            <img src="img/profil.png">
-            <p><span class="surname">Surnom</span><br/>Clara Rieffel</p>
+            <img src="img/photo/Clara.jpg">
+            <p><span class="surname">Apollogif</span><br/>Clara Rieffel</p>
             <p><span class="pole">Bureau</span><br/> SecGen</p>
           </div>
         </div>
@@ -221,131 +222,131 @@
           <div class="listeLigne">
             <p>Pole Études</p>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Alban Falck</p>
+              <img src="img/photo/Alban.jpg">
+              <p><span class="surname">Apollogif</span><br/>Alban Falck</p>
               <p><span class="pole">Études</span><br/> VP Études</p>
             </div>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Mehdi Bennis</p>
+              <img src="img/photo/Mehdi.jpg">
+              <p><span class="surname">Apollogif</span><br/>Mehdi Bennis</p>
               <p><span class="pole">Études</span><br/> VP Études</p>
             </div>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Medhi Hmene</p>
+              <img src="img/photo/Mehdi H.jpg">
+              <p><span class="surname">Apollogif</span><br/>Medhi Hmene</p>
               <p><span class="pole">Études</span><br/> VP Études</p>
             </div>
           </div>
           <div class="listeLigne">
             <p>Pole Entreprise</p>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Edouard Chauliac</p>
+              <img src="img/photo/Edouard.jpg">
+              <p><span class="surname">Apollogif</span><br/>Edouard Chauliac</p>
               <p><span class="pole">Entreprise</span><br/> VP Ent'</p>
             </div>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Thomas Moreau</p>
+              <img src="img/photo/Thomas Moreau.jpg">
+              <p><span class="surname">Apollogif</span><br/>Thomas Moreau</p>
               <p><span class="pole">Entreprise</span><br/> VP Ent'</p>
             </div>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Arnaud Petit</p>
+              <img src="img/photo/bite.jpg">
+              <p><span class="surname">Apollogif</span><br/>Arnaud Petit</p>
               <p><span class="pole">Entreprise</span><br/> VP Ent'</p>
             </div>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Youssef Chadali</p>
+              <img src="img/photo/Youssef.jpg">
+              <p><span class="surname">Apollogif</span><br/>Youssef Chadali</p>
               <p><span class="pole">Entreprise</span><br/> VP Ent'</p>
             </div>
           </div>
           <div class="listeLigne">
             <p>Pole Club</p>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Antoine Payan</p>
+              <img src="img/photo/Antoine.jpg">
+              <p><span class="surname">Apollogif</span><br/>Antoine Payan</p>
               <p><span class="pole">Club</span><br/> VP Club</p>
             </div>
           </div>
           <div class="listeLigne">
             <p>Pole Soirées</p>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Valentin Odde</p>
+              <img src="img/photo/Valentin.jpg">
+              <p><span class="surname">Apollogif</span><br/>Valentin Odde</p>
               <p><span class="pole">Soirées</span><br/> VP Soirée</p>
             </div>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Matthieu Annequin</p>
+              <img src="img/photo/Matthieu.jpg">
+              <p><span class="surname">Apollogif</span><br/>Matthieu Annequin</p>
               <p><span class="pole">Soirées</span><br/> VP Prestige</p>
             </div>
           </div>
           <div class="listeLigne">
             <p>Pole Communication</p>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Emma Lovisa</p>
+              <img src="img/photo/Emma.jpg">
+              <p><span class="surname">Apollogif</span><br/>Emma Lovisa</p>
               <p><span class="pole">Comunication</span><br/> Com. Int'</p>
             </div>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Florence Rémy</p>
+              <img src="img/photo/Florence.jpg">
+              <p><span class="surname">Apollogif</span><br/>Florence Rémy</p>
               <p><span class="pole">Communication</span><br/> Com. Ext'</p>
             </div>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Majda Brahimi</p>
+              <img src="img/photo/Majda.jpg">
+              <p><span class="surname">Apollogif</span><br/>Majda Brahimi</p>
               <p><span class="pole">Communication</span><br/> VP Design</p>
             </div>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Romain Picard</p>
+              <img src="img/photo/Romain Picard.jpg">
+              <p><span class="surname">Apollogif</span><br/>Romain Picard</p>
               <p><span class="pole">Communication</span><br/> VP Geek</p>
             </div>
           </div>
           <div class="listeLigne">
             <p>Pole Event</p>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Hicham Bouanani</p>
+              <img src="img/photo/Hicham.jpg">
+              <p><span class="surname">Apollogif</span><br/>Hicham Bouanani</p>
               <p><span class="pole">Event</span><br/> VP Event</p>
             </div>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Amine Larhchim</p>
+              <img src="img/photo/Amine.jpg">
+              <p><span class="surname">Apollogif</span><br/>Amine Larhchim</p>
               <p><span class="pole">Event</span><br/> VP Event</p>
             </div>
           </div>
           <div class="listeLigne">
             <p>Pole Éclipse</p>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Robin Delebassée</p>
+              <img src="img/photo/Robin.jpg">
+              <p><span class="surname">Apollogif</span><br/>Robin Delebassée</p>
               <p><span class="pole">Éclipse</span><br/> VP Éclipse</p>
             </div>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Jean-Baptiste Peter</p>
+              <img src="img/photo/JB.jpg">
+              <p><span class="surname">Apollogif</span><br/>Jean-Baptiste Peter</p>
               <p><span class="pole">Éclipse</span><br/> VP Éclipse</p>
             </div>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Noah Vincens</p>
+              <img src="img/photo/Noah.jpg">
+              <p><span class="surname">Apollogif</span><br/>Noah Vincens</p>
               <p><span class="pole">Éclipse</span><br/> VP Éclipse</p>
             </div>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Romain Fournier</p>
+              <img src="img/photo/Romain Fournier.jpg">
+              <p><span class="surname">Apollogif</span><br/>Romain Fournier</p>
               <p><span class="pole">Éclipse</span><br/> VP Éclipse</p>
             </div>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Thomas Meot</p>
+              <img src="img/photo/Thomas Meot.jpg">
+              <p><span class="surname">Apollogif</span><br/>Thomas Meot</p>
               <p><span class="pole">Éclipse</span><br/> VP Éclipse</p>
             </div>
             <div class="listUnit">
-              <img src="img/profil.png">
-              <p><span class="surname">Surnom</span><br/>Rémi Quentin</p>
+              <img src="img/photo/Remi.jpg">
+              <p><span class="surname">Apollogif</span><br/>Rémi Quentin</p>
               <p><span class="pole">Éclipse</span><br/> VP Éclipse</p>
             </div>
           </div>
@@ -353,21 +354,34 @@
         <button id="expandListe" class="button"> MONTRER TOUTE LA LISTE</button>
       </section>
       <section class="section" id="section4">
-        <h2>LES ACTIVITES</h2>
+        <h2>LES PROJETS</h2>
         <div class="actiUnit">
-          <img src="img/activite.png" alt="acti">
-          <h3>ACTIVITE</h3>
-          <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae doloribus reprehenderit aspernatur dolorem ratione, autem earum magnam aperiam laudantium voluptates, hic eius consequatur error, saepe dolorum ipsa reiciendis corrupti id!</p>
+          <h3>Représentation des étudiants sur le campus</h3>
+          <p>Afin d'améliorer la représentation des étudiants au sein de l'école, nous proposons de réserver un poste de délégué de promotion à un élève en échange international. Elu par la communauté internationale de CentraleSupélec, ce nouveau poste permettra de susciter plus d'engouement pour les élections des délégués de promotion.</p>
         </div>
         <div class="actiUnit">
-          <img src="img/activite.png" alt="acti">
-          <h3>ACTIVITE</h3>
-          <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae doloribus reprehenderit aspernatur dolorem ratione, autem earum magnam aperiam laudantium voluptates, hic eius consequatur error, saepe dolorum ipsa reiciendis corrupti id!</p>
+          <h3>Calendrier des clubs</h3>
+          <p>Toi aussi tu as du mal à t'y retrouver dans tous les événements organisés à CentraleSupélec ? Tu aimerais partager des informations sur ton club au reste du campus ? Notre VP Clubs et  la Com Int’ s’associent pour te faciliter l’accès aux informations des clubs par la création d’un calendrier hebdomadaire qui sera affiché sur le bocal (local BDE) en diagonale Eiffel. </p>
         </div>
         <div class="actiUnit">
-          <img src="img/activite.png" alt="acti">
-          <h3>ACTIVITE</h3>
-          <p>Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae doloribus reprehenderit aspernatur dolorem ratione, autem earum magnam aperiam laudantium voluptates, hic eius consequatur error, saepe dolorum ipsa reiciendis corrupti id!</p>
+          <h3>Livret associatif</h3>
+          <p>Les amphis et apéros de recrutement au début de l'année sont nombreux et tu n'as peut-être pas pu aller te renseigner sur toutes les associations qui t'intéressaient... Afin que les GPAs n'aient aucun regret, la Mission Apollo Gif s’engage à lancer la rédaction d'un livret des associations. Méthodes de sélection, postes, objectifs… tout résumé sur un seul support !</p>
+        </div>
+        <div class="actiUnit">
+          <h3>Livret associatif</h3>
+          <p>Les amphis et apéros de recrutement au début de l'année sont nombreux et tu n'as peut-être pas pu aller te renseigner sur toutes les associations qui t'intéressaient... Afin que les GPAs n'aient aucun regret, la Mission Apollo Gif s’engage à lancer la rédaction d'un livret des associations. Méthodes de sélection, postes, objectifs… tout résumé sur un seul support !</p>
+        </div>
+        <div class="actiUnit">
+          <h3>Week-ends inter-campus</h3>
+          <p>Nous te proposons d’organiser des week-ends de cohésion avec les campus de province pour rencontrer les autres étudiants de CentraleSupélec. Organisés sur les différents campus, ils seront l’opportunité de les visiter et d’améliorer l’intégration de tous les étudiants de l’école. </p>
+        </div>
+        <div class="actiUnit">
+          <h3>Tournoi inter-étage</h3>
+          <p>Une fois les recrutements associatifs finis et la folie de l’intégration loin derrière toi, tu aimerais continuer de rencontrer du monde ? Nous te proposons d’organiser un tournoi inter-étages sur le campus en novembre, sous le format d’une activité par semaine pour ne pas gêner les tracos ! </p>
+        </div>
+        <div class="actiUnit">
+          <h3>Livret de mémoire</h3>
+          <p>Puisque l’école dispose d’un passé riche, nous avons à cœur de distribuer aux étudiants un livret relatant l’histoire de l’Ecole Centrale et Supélec ainsi que celle de la fusion. Rentrer à CentraleSupélec, c’est avant tout intégrer une communauté ancienne. Un accès facilité à cet héritage permettra de renforcer le sentiment d’appartenance.</p>
         </div>
       </section>
       <section class="section" id="section5">
@@ -409,8 +423,9 @@
             <h5>BESOIN D'AIDE ?</h5>
             <ul>
               <li><a href="#section2">À propos</a></li>
-              <li><a href="mailto:addr@test.com">Nous contacter</a></li>
+              <li><a href="mailto:rom1.04pic@hotmail.fr">Nous contacter</a></li>
               <li><a href="plan.html">Plan du site</a></li>
+              <?php echo 'test'; ?>
             </ul>
           </span>
         </div>
