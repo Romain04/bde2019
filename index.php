@@ -92,6 +92,7 @@
     </header>
     <aside>
       <div class="CurrentEvent">
+        <p class="catchphrase">- OU NOUS RETROUVER -</p>
         <div id="topbar"></div>
         <h3><span class="icon-attraction"></span> COUP DE POING</h3>
         <span class="icon-arrow_up" id="ArrowUp"></span>
