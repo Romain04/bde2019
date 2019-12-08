@@ -188,7 +188,10 @@
         <div class="descripUnit">
           <span class="descripP">
             <h3>Des activités de folies</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat officiis, laborum porro aliquid pariatur provident ea id ratione beatae temporibus ex, voluptatem aut neque in dolorem tempore. Dicta ratione, cupiditate!</p>
+            <p>Pour toute la durée de cette semaine, on vous a concocté des activités de l'espace : préparez vous à vibrer au rythme des pulsars, à danser avec les trous noirs et </p>
+            <a href="#actis">
+              <button class="button" style="margin-top:10px;margin-left: calc(50% - 100px);">VOIR PLUS</button>
+            </a>
           </span>
           <img src="img/crowd.jpg" alt="La masse d'actis qui font rêver!">
         </div>
@@ -354,32 +357,65 @@
         <button id="expandListe" class="button"> MONTRER TOUTE LA LISTE</button>
       </section>
       <section class="section" id="section4">
-        <h2>LES PROJETS</h2>
+        <h2>LES ACTIS</h2>
         <div class="actiUnit">
+          <img src="img/actis/punch.png" alt="campus">
+          <h3>COUP DE POING</h3>
+          <p>Venez tester votre force et montrer vos biceps de bodybuilder face à la machine infernale !</p>
+        </div>
+        <div class="actiUnit">
+          <img src="img/actis/arcade.png" alt="campus">
+          <h3>BORNE D'ARCADE</h3>
+          <p>Envie de retrouver les folles sensations des jeux d'arcades retro "made in 80s" ? Alors viens defier la borne et inscrire ton nom sur le leaderboard !</p>
+        </div>
+        <div class="actiUnit">
+          <img src="img/actis/jump.png" alt="campus">
+          <h3>BAG JUMP</h3>
+          <p>Pour se sentir flotter en apesanteur et amerir en douceur comme un astronaute, rendez-vous au Bag Jump ;)</p>
+        </div>
+        <div class="actiUnit">
+          <img src="img/actis/space.png" alt="campus">
+          <h3>SPACE BALL</h3>
+          <p>Si tu te sens l'ame d'un astronaute, viens passer les durs tests de selection au Space Ball : rotations suivant trois axes, accelerations et perte de repere, sensations garanties!</p>
+        </div>
+        <div class="actiUnit">
+          <img src="img/actis/escape.png" alt="campus">
+          <h3>ESCAPE GAME</h3>
+          <p>30 minutes, des messages radio d'alerte et des lampes de poches: c'est ce dont vous disposez pour sortir de notre station spatiale piegee... </p>
+        </div>
+        <div class="actiUnit">
+          <img src="img/actis/laser.png" alt="campus">
+          <h3>LASER GAME</h3>
+          <p>Quel est le meilleur moyen de defendre une invasion extra-terrestre ? Et oui, s'entrainer au Laser Game, Pardi !</p>
+        </div>
+        <h2 id="actis">LES PROJETS</h2>
+        <div class="actiUnit">
+          <img src="img/campus.png" alt="campus">
           <h3>Représentation des étudiants sur le campus</h3>
           <p>Afin d'améliorer la représentation des étudiants au sein de l'école, nous proposons de réserver un poste de délégué de promotion à un élève en échange international. Elu par la communauté internationale de CentraleSupélec, ce nouveau poste permettra de susciter plus d'engouement pour les élections des délégués de promotion.</p>
         </div>
         <div class="actiUnit">
+          <img src="img/calendar.png" alt="campus">
           <h3>Calendrier des clubs</h3>
           <p>Toi aussi tu as du mal à t'y retrouver dans tous les événements organisés à CentraleSupélec ? Tu aimerais partager des informations sur ton club au reste du campus ? Notre VP Clubs et  la Com Int’ s’associent pour te faciliter l’accès aux informations des clubs par la création d’un calendrier hebdomadaire qui sera affiché sur le bocal (local BDE) en diagonale Eiffel. </p>
         </div>
         <div class="actiUnit">
+          <img src="img/book.png" alt="campus">
           <h3>Livret associatif</h3>
           <p>Les amphis et apéros de recrutement au début de l'année sont nombreux et tu n'as peut-être pas pu aller te renseigner sur toutes les associations qui t'intéressaient... Afin que les GPAs n'aient aucun regret, la Mission Apollo Gif s’engage à lancer la rédaction d'un livret des associations. Méthodes de sélection, postes, objectifs… tout résumé sur un seul support !</p>
         </div>
         <div class="actiUnit">
-          <h3>Livret associatif</h3>
-          <p>Les amphis et apéros de recrutement au début de l'année sont nombreux et tu n'as peut-être pas pu aller te renseigner sur toutes les associations qui t'intéressaient... Afin que les GPAs n'aient aucun regret, la Mission Apollo Gif s’engage à lancer la rédaction d'un livret des associations. Méthodes de sélection, postes, objectifs… tout résumé sur un seul support !</p>
-        </div>
-        <div class="actiUnit">
+          <img src="img/student.png" alt="campus">
           <h3>Week-ends inter-campus</h3>
           <p>Nous te proposons d’organiser des week-ends de cohésion avec les campus de province pour rencontrer les autres étudiants de CentraleSupélec. Organisés sur les différents campus, ils seront l’opportunité de les visiter et d’améliorer l’intégration de tous les étudiants de l’école. </p>
         </div>
         <div class="actiUnit">
+          <img src="img/tournament.png" alt="campus">
           <h3>Tournoi inter-étage</h3>
           <p>Une fois les recrutements associatifs finis et la folie de l’intégration loin derrière toi, tu aimerais continuer de rencontrer du monde ? Nous te proposons d’organiser un tournoi inter-étages sur le campus en novembre, sous le format d’une activité par semaine pour ne pas gêner les tracos ! </p>
         </div>
         <div class="actiUnit">
+          <img src="img/history.png" alt="campus">
           <h3>Livret de mémoire</h3>
           <p>Puisque l’école dispose d’un passé riche, nous avons à cœur de distribuer aux étudiants un livret relatant l’histoire de l’Ecole Centrale et Supélec ainsi que celle de la fusion. Rentrer à CentraleSupélec, c’est avant tout intégrer une communauté ancienne. Un accès facilité à cet héritage permettra de renforcer le sentiment d’appartenance.</p>
         </div>
@@ -389,18 +425,48 @@
         <p id="shortDesc">La Mission n'aurait pas pu voir le jour sans eux !</p>
         <div id="scene">
           <span id="sponsor">
-            <img src="img/sponsors/marque1.jpg" alt="">
-            <p>SPONSOR 1</p>
+            <img src="img/Sponsors/richesmont.png" alt="">
+            <p>RichesMont</p>
           </span>
           <span id="sponsor">
-            <img src="img/sponsors/marque1.jpg" alt="">
-            <p>SPONSOR 2</p>
+            <img src="img/Sponsors/Lydia.png" alt="">
+            <p>Lydia</p>
           </span>
           <span id="sponsor">
-            <img src="img/sponsors/marque1.jpg" alt="">
-            <p>SPONSOR 3</p>
+            <img src="img/Sponsors/bnp.png" alt="">
+            <p>BNP Paribas</p>
           </span>
         </div>
+        <div id="scene">
+          <span id="sponsor">
+            <img src="img/Sponsors/spie.png" alt="">
+            <p>Spie Batignolles</p>
+          </span>
+          <span id="sponsor">
+            <img src="img/Sponsors/wei.png" alt="">
+            <p>Wei and Go</p>
+          </span>
+          <span id="sponsor">
+            <img src="img/Sponsors/casa.png" alt="">
+            <p>Casa Street</p>
+          </span>
+        </div>
+        <div id="scene">
+          <span id="sponsor">
+            <img src="img/Sponsors/heetch.png" alt="">
+            <p>Heetch</p>
+          </span>
+          <span id="sponsor">
+            <img src="img/Sponsors/just.png" alt="">
+            <p>Just Eat</p>
+          </span>
+          <span id="sponsor">
+            <img src="img/Sponsors/part.png" alt="">
+            <p>Partelya</p>
+          </span>
+        </div>
+        <h2>LES REMERCIEMENTS</h2>
+        <p id="shortDesc">AdR - FACS - BDE - Pics - Hyris - C-Mix - SBCS - Toucan Déchaîné - ViaRézo - Ecsit - BdI</p>
         <p class="endTitle">~ APOLLO GIF ~</p>
       </section>
       <footer>
