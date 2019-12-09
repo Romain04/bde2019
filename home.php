@@ -83,8 +83,8 @@
         </a>
       </p>
       <p id="btnCrepeWrap">
-        <a id="btnCrepe" href="https://crepes-cs.fr/">
-          <button class="orderbtn">
+        <a href="https://crepes-cs.fr/">
+          <button class="orderbtn" style="margin: 0;">
             <span class="icon-cart"></span> CRÊPES
           </button>
         </a>
@@ -102,7 +102,7 @@
           <span class="icon-explore"></span>Canapés Bouygues (Stand)
         </p>
         <a href="#section4">
-          <button class="button" style="margin-top:10px;margin-left: calc(50% - 100px);">VOIR PLUS</button>
+          <button class="button" style="margin-top:10px;margin-left: calc(50% - 100px);">READ MORE</button>
         </a>
       </div>
       <div id="Avenir">
@@ -170,6 +170,14 @@
         </article>
       </section>
       <section class="section" id="section2">
+        <div id="enlevement">
+          <p>Wait, what can this brand new button trigger ??? Let's press it to feel its power... !</p>
+          <a href="https://enlevemoi.fr/">
+            <button class="orderbtn">
+              <span class="icon-cart"></span>KIDNAPPING
+            </button>
+          </a>
+        </div>
         <h2>SOMETHING ABOUT US</h2>
         <div class="descripUnit">
           <span class="descripP">

@@ -170,6 +170,14 @@
         </article>
       </section>
       <section class="section" id="section2">
+        <div id="enlevement">
+          <p>Oh, mais a quoi peut bien servir ce tout nouveau bouton ??? Il faut tester pour savoir... !</p>
+          <a href="https://enlevemoi.fr/">
+            <button class="orderbtn">
+              <span class="icon-cart"></span>ENLEVEMENT
+            </button>
+          </a>
+        </div>
         <h2>QUI SOMMES NOUS</h2>
         <div class="descripUnit">
           <span class="descripP">
