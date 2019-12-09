@@ -393,32 +393,32 @@
         <div class="actiUnit">
           <img src="img/campus.png" alt="campus">
           <h3>Representation of the internationals on the campus</h3>
-          <p>Afin d'améliorer la représentation des étudiants au sein de l'école, nous proposons de réserver un poste de délégué de promotion à un élève en échange international. Elu par la communauté internationale de CentraleSupélec, ce nouveau poste permettra de susciter plus d'engouement pour les élections des délégués de promotion.</p>
+          <p>In order to improve the the recognition of unheard voices through the vast students spectrum, we offer to save a year group representative role for a student who is currently following an international exchange program. He will be elected by the international community of CentraleSupélec, and this project will help promote the elections of the year group representatives.</p>
         </div>
         <div class="actiUnit">
           <img src="img/calendar.png" alt="campus">
           <h3>Society Calendar</h3>
-          <p>Toi aussi tu as du mal à t'y retrouver dans tous les événements organisés à CentraleSupélec ? Tu aimerais partager des informations sur ton club au reste du campus ? Notre VP Clubs et  la Com Int’ s’associent pour te faciliter l’accès aux informations des clubs par la création d’un calendrier hebdomadaire qui sera affiché sur le bocal (local BDE) en diagonale Eiffel. </p>
+          <p>Aren't you having a hard time following every single event organised in CentraleSupélec ? Would you like to share informations about your society with the whole campus ? Our VP Club and Internal Com' will work together, so that you can easily access these informations through the creation of a weekly calendar - we will stick it to the "Bocal" (the BDE's room) in diagonale Eiffel !</p>
         </div>
         <div class="actiUnit">
           <img src="img/book.png" alt="campus">
           <h3>Associations Booklet</h3>
-          <p>Les amphis et apéros de recrutement au début de l'année sont nombreux et tu n'as peut-être pas pu aller te renseigner sur toutes les associations qui t'intéressaient... Afin que les GPAs n'aient aucun regret, la Mission Apollo Gif s’engage à lancer la rédaction d'un livret des associations. Méthodes de sélection, postes, objectifs… tout résumé sur un seul support !</p>
+          <p>There are many lectures and recruitement aperitives at the beginning of the school year, and you might have missed informations about some associations that interessed you... Say no more, The ApolloGif Mission commits itself to write an association booklet so the freshmen do not rgret anything. Recruitment methods, roles, objectives... everything summed up in a single medium !</p>
         </div>
         <div class="actiUnit">
           <img src="img/student.png" alt="campus">
           <h3>Inter-campus Week-ends</h3>
-          <p>Nous te proposons d’organiser des week-ends de cohésion avec les campus de province pour rencontrer les autres étudiants de CentraleSupélec. Organisés sur les différents campus, ils seront l’opportunité de les visiter et d’améliorer l’intégration de tous les étudiants de l’école. </p>
+          <p>We want to organise weekends with the other campuses of CentrleSupélec so that all students can meet each other. They will take place on each campus and will be a great opportunity for you to visit them, and will improve the global integration of the students !</p>
         </div>
         <div class="actiUnit">
           <img src="img/tournament.png" alt="campus">
           <h3>Inter-étage Tournament</h3>
-          <p>Une fois les recrutements associatifs finis et la folie de l’intégration loin derrière toi, tu aimerais continuer de rencontrer du monde ? Nous te proposons d’organiser un tournoi inter-étages sur le campus en novembre, sous le format d’une activité par semaine pour ne pas gêner les tracos ! </p>
+          <p>Associative recruitements are over and the fever of the begining of the year is behind you ? You Would like to keep meeting people ? We want to organise an "inter-étage"-tournament (= a tournament opposing each residence's floor to each other) in November : One activity per week so that you can still have time for other associations !</p>
         </div>
         <div class="actiUnit">
           <img src="img/history.png" alt="campus">
           <h3>Memory Booklet</h3>
-          <p>Puisque l’école dispose d’un passé riche, nous avons à cœur de distribuer aux étudiants un livret relatant l’histoire de l’Ecole Centrale et Supélec ainsi que celle de la fusion. Rentrer à CentraleSupélec, c’est avant tout intégrer une communauté ancienne. Un accès facilité à cet héritage permettra de renforcer le sentiment d’appartenance.</p>
+          <p>The school possesses an interesting past, and we believe that this is important to hand out booklets which relate the history of bith the Ecole Centrale and Supélec, in addition to that of the "fusion". Studying at CentraleSupélec is above all being part of an old community, and an easier access to this legacy will enhance the sense of belonging.</p>
         </div>
       </section>
       <section class="section" id="section5">

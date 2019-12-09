@@ -18,7 +18,7 @@ $(function ()
       hsec3 = $("#section3").height(),
       hsec4 = $("#section4").height(),
       hsec5 = $("#section5").height();
-  $("#hidescreen").fadeIn(10);
+      $("#loader").delay(1000).fadeOut();
   $("#three").css({'height': $("#section1").height()});
 
   if($(window).width() >= 1250)
@@ -53,6 +53,54 @@ $(function ()
     showAside();
     $("#ArrowUp").fadeOut(750);
     done = false;
+  }
+
+  function showAside()
+  {
+    $("#retrouver").animate({'opacity': '1'});
+    $("#Avenir").fadeIn(750);
+    $(".CurrentEvent p").fadeIn(750);
+    $(".CurrentEvent").css({'cursor':'auto'});
+    $(".CurrentEvent").animate({'height': ceHeight},750);
+    $("aside").animate({'top': '150px'});
+  }
+
+  function hideAside()
+  {
+    $("#retrouver").animate({'opacity': '0'});
+    $("#Avenir").fadeOut(750);
+    $(".CurrentEvent p").fadeOut(750);
+    $("#ArrowUp").fadeIn(750);
+    $(".CurrentEvent").css({'cursor':'pointer'});
+    $(".CurrentEvent").animate({'height': '70px'},750);
+    $("aside").animate({'top': $(window).height() - 140});
+    arrow();
+  }
+
+  function cross()
+  {
+    $(".CurrentEvent").off();
+    $(".CurrentEvent").click(function()
+    {
+      $("#ArrowUp").removeClass("icon-cross").addClass("icon-arrow_up").fadeIn(750);
+      hideAside();
+      $("#Avenir").css({'background-color':'rgba(0,0,0,0)'});
+      uActivated = false;
+      arrow();
+    });
+  }
+
+  function arrow()
+  {
+    $(".CurrentEvent").off();
+    $(".CurrentEvent").click(function()
+    {
+      $("#ArrowUp").removeClass("icon-arrow_up").addClass("icon-cross").fadeIn(750);
+      showAside();
+      $("#Avenir").css({'background-color':'rgba(0,0,0,0.7)'});
+      uActivated = true;
+      cross();
+    });
   }
 
   $(window).resize(function()
