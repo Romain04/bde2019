@@ -18,7 +18,7 @@ $(function ()
       hsec3 = $("#section3").height(),
       hsec4 = $("#section4").height(),
       hsec5 = $("#section5").height();
-
+  $("#hidescreen").fadeIn(10);
   $("#three").css({'height': $("#section1").height()});
 
   if($(window).width() >= 1250)
