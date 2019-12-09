@@ -237,7 +237,7 @@
             </div>
             <div class="listUnit">
               <img src="img/photo/Mehdi H.jpg">
-              <p><span class="surname">Apollogif</span><br/>Medhi Hmene</p>
+              <p><span class="surname">Apollogif</span><br/>Medhi Hmyene</p>
               <p><span class="pole">Études</span><br/> VP Études</p>
             </div>
           </div>
@@ -254,7 +254,7 @@
               <p><span class="pole">Entreprise</span><br/> VP Ent'</p>
             </div>
             <div class="listUnit">
-              <img src="img/photo/bite.jpg">
+              <img src="img/photo/Arnaud.jpg">
               <p><span class="surname">Apollogif</span><br/>Arnaud Petit</p>
               <p><span class="pole">Entreprise</span><br/> VP Ent'</p>
             </div>
