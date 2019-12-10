@@ -223,6 +223,12 @@ header > *
 	transition: color ease 0.2s;
 }
 
+#btnCrepeWrap
+{
+	line-height: inherit;
+	vertical-align: middle;
+}
+
 header p a:hover
 {
 	color: rgb(205, 34, 16);

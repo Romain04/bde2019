@@ -24,11 +24,16 @@
       <p id="sidetitle">
         MISSION <br/> APOLLO GIF
       </p>
-      <p class="sidedesc">- ORDER CREPÊS -</p>
+      <p class="sidedesc">- ORDER SERVICES -</p>
       <p id="sideButton">
         <a id="btnCrepe" href="https://crepes-cs.fr/">
           <button class="orderbtn">
             <span class="icon-cart"></span> CRÊPES
+          </button>
+        </a>
+        <a href="https://enlevemoi.fr/">
+          <button class="orderbtn">
+            <span class="icon-cart"></span> KIDNAPING
           </button>
         </a>
       </p>

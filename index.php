@@ -24,11 +24,16 @@
       <p id="sidetitle">
         MISSION <br/> APOLLO GIF
       </p>
-      <p class="sidedesc">- COMMANDER DES CREPÊS -</p>
+      <p class="sidedesc">- COMMANDER NOS SERVICES -</p>
       <p id="sideButton">
         <a id="btnCrepe" href="https://crepes-cs.fr/">
           <button class="orderbtn">
             <span class="icon-cart"></span> CRÊPES
+          </button>
+        </a>
+        <a href="https://enlevemoi.fr/">
+          <button class="orderbtn">
+            <span class="icon-cart"></span> ENLEVEMENT
           </button>
         </a>
       </p>
@@ -86,6 +91,11 @@
         <a id="btnCrepe" href="https://crepes-cs.fr/">
           <button class="orderbtn">
             <span class="icon-cart"></span> CRÊPES
+          </button>
+        </a>
+        <a href="https://enlevemoi.fr/">
+          <button class="orderbtn">
+            <span class="icon-cart"></span> ENLEVEMENT
           </button>
         </a>
       </p>
@@ -174,7 +184,7 @@
           <p>Oh, mais a quoi peut bien servir ce tout nouveau bouton ??? Il faut tester pour savoir... !</p>
           <a href="https://enlevemoi.fr/">
             <button class="orderbtn">
-              <span class="icon-cart"></span>ENLEVEMENT
+              <span class="icon-cart"></span> ENLEVEMENT
             </button>
           </a>
         </div>
