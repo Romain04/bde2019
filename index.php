@@ -94,12 +94,12 @@
       <p class="catchphrase">- OU NOUS RETROUVER -</p>
       <div class="CurrentEvent">
         <div id="topbar"></div>
-        <h3><span class="icon-attraction"></span> COUP DE POING</h3>
+        <h3><span class="icon-attraction"></span> SPACE BALL</h3>
         <span class="icon-arrow_up" id="ArrowUp"></span>
-        <p>Venez tester votre force et montrer vos biceps de bodybuilder face à la machine infernale !</p>
+        <p>Si tu te sens l'ame d'un astronaute, viens passer les durs tests de selection au Space Ball : rotations suivant trois axes, accelerations et perte de repere, sensations garanties!</p>
         <p class="info">
-          <span class="icon-time"></span>8h-23h
-          <span class="icon-explore"></span>Canapés Bouygues (Stand)
+          <span class="icon-time"></span>15h-19h
+          <span class="icon-explore"></span>Devant Bouygues
         </p>
         <a href="#section4">
           <button class="button" style="margin-top:10px;margin-left: calc(50% - 100px);">VOIR PLUS</button>

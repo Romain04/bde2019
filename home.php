@@ -94,12 +94,12 @@
       <p class="catchphrase">- COME MEET US THERE -</p>
       <div class="CurrentEvent">
         <div id="topbar"></div>
-        <h3><span class="icon-attraction"></span> COUP DE POING</h3>
+        <h3><span class="icon-attraction"></span> SPACE BALL</h3>
         <span class="icon-arrow_up" id="ArrowUp"></span>
-        <p>Show us your strength and bodybuilder body at this funfair game !</p>
+        <p>If you feel like space is in your blood and rockets in your DNA, then give a try to this funfair attraction to test all your sensations and balance!</p>
         <p class="info">
-          <span class="icon-time"></span>8h-23h
-          <span class="icon-explore"></span>Canapés Bouygues (Stand)
+          <span class="icon-time"></span>15h-19h
+          <span class="icon-explore"></span>In Front of Bouygues
         </p>
         <a href="#section4">
           <button class="button" style="margin-top:10px;margin-left: calc(50% - 100px);">READ MORE</button>
