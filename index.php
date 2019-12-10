@@ -94,7 +94,7 @@
       <p class="catchphrase">- OU NOUS RETROUVER -</p>
       <div class="CurrentEvent">
         <div id="topbar"></div>
-        <h3><span class="icon-sports"></span> LASER GAME</h3>
+        <h3><span class="icon-esports"></span> LASER GAME</h3>
         <span class="icon-arrow_up" id="ArrowUp"></span>
         <p>Quel est le meilleur moyen de defendre une invasion extra-terrestre ? Le laser Game, Pardi!</p>
         <p class="info">

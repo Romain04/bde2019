@@ -94,7 +94,7 @@
       <p class="catchphrase">- COME MEET US THERE -</p>
       <div class="CurrentEvent">
         <div id="topbar"></div>
-        <h3><span class="icon-sports"></span> LASER GAME</h3>
+        <h3><span class="icon-esports"></span> LASER GAME</h3>
         <span class="icon-arrow_up" id="ArrowUp"></span>
         <p>Join our elite unit's training to kick the alien's ass with our laser Game !</p>
         <p class="info">
@@ -109,7 +109,7 @@
         <p class="catchphrase">- OTHER EVENTS -</p>
         <div class="scheduledEvent">
           <h4 class="description">
-            <span class="icon-esports"></span> COUP DE POING
+            <span class="icon-sports"></span> COUP DE POING
           </h4>
           <p class="info"><span class="icon-time"></span>Today, 8h-23h
             <span class="icon-explore"></span> Canapés Bouygues (Stand)
