@@ -94,22 +94,22 @@
       <p class="catchphrase">- COME MEET US THERE -</p>
       <div class="CurrentEvent">
         <div id="topbar"></div>
-        <h3><span class="icon-attraction"></span> SPACE BALL</h3>
+        <h3><span class="icon-sports"></span> LASER GAME</h3>
         <span class="icon-arrow_up" id="ArrowUp"></span>
-        <p>If you feel like space is in your blood, then give a try to this funfair attraction!</p>
+        <p>Join our elite unit's training to kick the alien's ass with our laser Game !</p>
         <p class="info">
-          <span class="icon-time"></span>15h-19h
-          <span class="icon-explore"></span>In Front of Bouygues
+          <span class="icon-time"></span>9h-19h
+          <span class="icon-explore"></span>VI.007
         </p>
         <a href="#section4">
           <button class="button" style="margin-top:10px;margin-left: calc(50% - 100px);">READ MORE</button>
         </a>
       </div>
       <div id="Avenir">
-        <p class="catchphrase">- UPCOMING EVENT -</p>
+        <p class="catchphrase">- OTHER EVENTS -</p>
         <div class="scheduledEvent">
           <h4 class="description">
-            <span class="icon-esports"></span> ARCADE GAME
+            <span class="icon-esports"></span> COUP DE POING
           </h4>
           <p class="info"><span class="icon-time"></span>Today, 8h-23h
             <span class="icon-explore"></span> Canapés Bouygues (Stand)

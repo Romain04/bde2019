@@ -94,22 +94,22 @@
       <p class="catchphrase">- OU NOUS RETROUVER -</p>
       <div class="CurrentEvent">
         <div id="topbar"></div>
-        <h3><span class="icon-attraction"></span> SPACE BALL</h3>
+        <h3><span class="icon-sports"></span> LASER GAME</h3>
         <span class="icon-arrow_up" id="ArrowUp"></span>
-        <p>Si tu te sens l'ame d'un astronaute, viens passer les tests de selection au Space Ball!</p>
+        <p>Quel est le meilleur moyen de defendre une invasion extra-terrestre ? Le laser Game, Pardi!</p>
         <p class="info">
-          <span class="icon-time"></span>15h-19h
-          <span class="icon-explore"></span>Devant Bouygues
+          <span class="icon-time"></span>9h-19h
+          <span class="icon-explore"></span>VI.007
         </p>
         <a href="#section4">
           <button class="button" style="margin-top:10px;margin-left: calc(50% - 100px);">VOIR PLUS</button>
         </a>
       </div>
       <div id="Avenir">
-        <p class="catchphrase">- ÉVÈNEMENTS À VENIR -</p>
+        <p class="catchphrase">- ÉVÈNEMENTS ANNEXES -</p>
         <div class="scheduledEvent">
           <h4 class="description">
-            <span class="icon-esports"></span> BORNE D'ARCADE
+            <span class="icon-sports"></span> COUP DE POING
           </h4>
           <p class="info"><span class="icon-time"></span>Aujourd'hui, 8h-23h
             <span class="icon-explore"></span> Canapés Bouygues (Stand)
