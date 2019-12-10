@@ -388,6 +388,13 @@ aside
 	padding: 50px 20px;
 }
 
+#programme
+{
+	margin-left: calc(50% - 200px);
+	width: 400px;
+	border: white 3px solid;
+}
+
 main
 {
 	position: fixed;
@@ -932,6 +939,13 @@ section > h2
 
 @media screen and (max-width: 1000px) and (min-width: 600px)/* mobile devices*/
 {
+	#programme
+	{
+		margin-left: calc(50% - 100px);
+		width: 200px;
+		border: white 3px solid;
+	}
+
 	.actiUnit
 	{
 		height: 400px;
@@ -1008,6 +1022,13 @@ section > h2
 
 @media screen and (max-width: 600px)
 {
+	#programme
+	{
+		margin-left: calc(50% - 100px);
+		width: 200px;
+		border: white 3px solid;
+	}
+
 	.actiUnit
 	{
 		height: 400px;

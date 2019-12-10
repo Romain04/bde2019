@@ -96,7 +96,7 @@
         <div id="topbar"></div>
         <h3><span class="icon-attraction"></span> SPACE BALL</h3>
         <span class="icon-arrow_up" id="ArrowUp"></span>
-        <p>Si tu te sens l'ame d'un astronaute, viens passer les durs tests de selection au Space Ball : rotations suivant trois axes, accelerations et perte de repere, sensations garanties!</p>
+        <p>Si tu te sens l'ame d'un astronaute, viens passer les tests de selection au Space Ball!</p>
         <p class="info">
           <span class="icon-time"></span>15h-19h
           <span class="icon-explore"></span>Devant Bouygues
@@ -245,7 +245,7 @@
             </div>
             <div class="listUnit">
               <img src="img/photo/Mehdi H.jpg">
-              <p><span class="surname">Apollogif</span><br/>Medhi Hmyene</p>
+              <p><span class="surname">Apollogif</span><br/>Mehdi Hmyene</p>
               <p><span class="pole">Études</span><br/> VP Études</p>
             </div>
           </div>
@@ -367,6 +367,9 @@
       </section>
       <section class="section" id="section4">
         <h2>LES ACTIS</h2>
+        <a href="img/actis/program.jpg">
+          <img id="programme" src="img/actis/program.jpg" alt="programme">
+        </a>
         <div class="actiUnit">
           <img src="img/actis/punch.png" alt="campus">
           <h3>COUP DE POING</h3>
