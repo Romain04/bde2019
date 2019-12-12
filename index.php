@@ -104,12 +104,12 @@
       <p class="catchphrase">- OU NOUS RETROUVER -</p>
       <div class="CurrentEvent">
         <div id="topbar"></div>
-        <h3><span class="icon-esports"></span> LASER GAME</h3>
+        <h3><span class="icon-esports"></span> BAG JUMP</h3>
         <span class="icon-arrow_up" id="ArrowUp"></span>
-        <p>Quel est le meilleur moyen de defendre une invasion extra-terrestre ? Le laser Game, Pardi!</p>
+        <p>Pour se sentir flotter en apesanteur et amerir en douceur comme un vrai astronaute !</p>
         <p class="info">
-          <span class="icon-time"></span>9h-19h
-          <span class="icon-explore"></span>VI.007
+          <span class="icon-time"></span>13h-18h
+          <span class="icon-explore"></span>Carré des SCiences
         </p>
         <a href="#section4">
           <button class="button" style="margin-top:10px;margin-left: calc(50% - 100px);">VOIR PLUS</button>
@@ -119,9 +119,9 @@
         <p class="catchphrase">- ÉVÈNEMENTS ANNEXES -</p>
         <div class="scheduledEvent">
           <h4 class="description">
-            <span class="icon-sports"></span> COUP DE POING
+            <span class="icon-soiree"></span> SEULS SUR GIF (SOIREE)
           </h4>
-          <p class="info"><span class="icon-time"></span>Aujourd'hui, 8h-23h
+          <p class="info"><span class="icon-time"></span>Aujourd'hui, 23h-03h
             <span class="icon-explore"></span> Canapés Bouygues (Stand)
           </p>
         </div>
